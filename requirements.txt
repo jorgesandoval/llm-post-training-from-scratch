@@ -1,0 +1,16 @@
+# Core deep learning stack (pinned for reproducibility).
+# NOTE: install the CUDA build of torch on RunPod, e.g.
+#   pip install torch==2.3.1 --index-url https://download.pytorch.org/whl/cu121
+torch==2.3.1
+transformers==4.43.3
+datasets==2.20.0
+numpy==1.26.4
+matplotlib==3.9.4
+
+# Notebook + UX helpers (not part of the "from scratch" algorithms).
+jupyter==1.0.0
+ipykernel==6.29.5
+tqdm==4.66.4
+
+# Explicitly NOT used (the whole point is to implement these from scratch):
+#   peft, trl, unsloth, bitsandbytes

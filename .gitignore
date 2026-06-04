@@ -1,0 +1,36 @@
+# Local environments & caches (uv venv, HF model cache, IPython dir)
+.venv/
+.uv/
+.hf/
+.ipython/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# Training artifacts (structure is documented, contents are not versioned)
+checkpoints/*
+!checkpoints/.gitkeep
+
+# HuggingFace / model caches
+.cache/
+*.bin
+*.safetensors
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Local project notes (not part of the published repo)
+docs/prompt.md

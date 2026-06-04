@@ -1,0 +1,10 @@
+# This file keeps the (otherwise gitignored) checkpoints/ directory in version control.
+#
+# Expected layout after running the notebooks in order:
+#   checkpoints/
+#   ├── cpt/      # produced by 01_cpt.ipynb   (LoRA adapter after continued pre-training)
+#   ├── sft/      # produced by 02_sft.ipynb   (LoRA adapter after supervised fine-tuning)
+#   ├── dpo/      # produced by 03_dpo.ipynb   (LoRA adapter after preference optimization)
+#   └── grpo/     # produced by 04_grpo.ipynb  (LoRA adapter after GRPO)
+#
+# Each stage loads the previous stage's adapter, so run the notebooks in order.
