@@ -1,4 +1,4 @@
-# llm-post-training-from-scratch
+# LLM Post Training From Scratch
 
 A didactic, **from-scratch** implementation of the four core LLM post-training
 techniques — **CPT, SFT, DPO, and GRPO** — in pure PyTorch, with one Jupyter
